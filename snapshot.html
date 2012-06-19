@@ -3,32 +3,34 @@
     <title>Snapshot demo</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
     <script type="text/javascript">
-      var video = document.querySelector('video');
-      var canvas = document.querySelector('canvas');
-      var context = canvas.getContext('2d');
-      var localMediaStream = null;
+      var video;
+      var canvas;
+      var context;
+      var localMediaStream;
+      
+      $(document).ready(function() {
+        video = $("#video")[0];
+        canvas = $("#canvas")[0];
+        context = canvas.getContext('2d');
+        
+        video.addEventListener('click', snapshot, false);
+        navigator.getUserMedia({video: true}, function(stream) {
+          video.src = window.URL.createObjectURL(stream);
+          localMediaStream = stream;
+        }, null);
+      });
 
       function snapshot() {
         if (localMediaStream) {
           context.drawImage(video, 0, 0);
-          document.querySelector('img').src = canvas.toDataURL('image/webp');
+          $("#snapshot").src = canvas.toDataURL('image/webp');
         }
       }
-      
-      function disappointment() {
-        alert("Oops. Some HTML5 magic is not working at the ICA.");
-      }
-
-      video.addEventListener('click', snapshot, false);
-      getUserMedia({video: true}, function(stream) {
-        video.src = window.URL.createObjectURL(stream);
-        localMediaStream = stream;
-      }, disappointment);
     </script>
   </head>
   <body>
-    <video autoplay></video>
-    <img id="snapshot" src=""></img>
-    <canvas id="canvas" style="display:none;"></canvas>
+    <video id="video" autoplay></video>
+    <img id="snapshot" src="" style="display: none;"></img>
+    <canvas id="canvas"></canvas>
   </body>
 </html>
