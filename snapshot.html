@@ -4,12 +4,14 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
     <script type="text/javascript">
       var video;
+			var canvas;
       var context;
       var localMediaStream;
       
       $(document).ready(function() {
         video = $("#video")[0];
-        context = $("#canvas")[0].getContext('2d');
+				canvas = $("#canvas")[0];
+        context = canvas.getContext('2d');
         
         video.addEventListener('click', snapshot, false);
         navigator.getUserMedia({video: true}, function(stream) {
@@ -18,8 +20,19 @@
         }, null);
       });
 
+			function hurray() {
+				alert("Wooopie!");
+			}
+
       function snapshot() {
         context.drawImage(video, 0, 0);
+				var imgData = canvas.toDataURL("image/png");
+				
+				$.post("http://localhost:3000/products/4fc2a2f060de7d41b0000004/blah", {
+          img : canvas.toDataURL('image/jpeg')
+				}, function(data) {
+					alert('success!');
+				}, "json");
       }
     </script>
   </head>
