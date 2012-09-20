@@ -50,7 +50,7 @@
 		      <h3>web applications</h3>
 		      <ul class="nav nav-list">
 		        <li class="list-header">MITRE</li>
-						<li class="active"><a href="index.html">popHealth</a></li>
+						<li class="active"><a href="index.html">bonnie</a></li>
 						<li><a href="cypress.html">cypress</a></li>
 						<li class="list-header">WPI</li>
 						<li><a href="assistments.html">ASSISTments</a></li>
@@ -58,9 +58,13 @@
 					</ul>
 		    </div>
 				<div class="view view2 span6">
-		      <h3>the elevator pitch</h3>
-		      <p></p>
-		      
+				  <h3>the elevator pitch</h3>
+		      <p>
+		        Bonnie is connected to the <a href="cypress.html">Cypress project</a> and is a collaboration with <a href="http://projectpophealth.org/">popHealth</a>. The project aims to allow for post-processing of HQMF
+		        documents, which are XML files that describe Clinical Quality Measures (<a href="www.cms.gov/QualityMeasures/">CQM</a>). There is a drag-and-drop UI for tweaking measure logic and the application can
+		        be used to export a handful of artifacts, including CQMs in a JSON format with generated executable JavaScript to calculate CQMs via MapReduce.
+		      </p>
+				  
 		      <h3>the technology stack</h3>
 		      <dl class="dl-horizontal">
 		        <dt>Server-side</dt>
@@ -76,10 +80,12 @@
 		      </dl>
 		      
 		      <h3>the cool parts i personally did</h3>
-		      <p>I am not actually a member of the popHealth team but I have joined in from my Cypress work to contribute to bonnie. Primarily I'm focused on making a unit test patient generator. Other members of the team who are parsing HQMF documents are able to give me a Ruby Object representation of CQMs and my goal is to create </p>
+		      <p>
+		        Primarily I'm focused on making a unit test patient generator. Other members of the team who are parsing HQMF documents are able to give me a Ruby object representation of CQMs and my goal is to create representations of patients that would exercise the logic of the measure. Not only can test patients serve to verify that our generated JavaScript is correct but they can also assist EHR Vendors in their own testing without needing to worry about protected health information. I've also been working on packaging all of the Bonnie artifacts to import into Cypress serve as history for the evolution of measures and test patients.
+		      </p>
 		    </div>
 				<div class="view view3 span4">
-		      <h3>popHealth</h3>
+		      <h3>bonnie</h3>
 					<a href="http://www.projectpophealth.org">
 						<img src="../assets/img/bonnie.jpg" alt="bonnie">
 					</a>
