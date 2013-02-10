@@ -1,0 +1,10 @@
+<h3>{{ page.featured-title }}</h3>
+{% if page.featured-image %}
+<a href="{{ page.featured-link }}">
+  <img src="{{ page.featured-image }}" alt="{{ page.featured-title }}">
+</a>
+{% else if page.featured-video %}
+<iframe title="{{ page.featured-title}}" class="youtube-player" type="text/html"
+  src="{{ page.featured-video }}" frameborder="0" allowFullScreen>
+</iframe>
+{% endif %}

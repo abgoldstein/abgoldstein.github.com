@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    {% include navigation.html %}
+    <div class="container">
+      <div class="row">
+        <div class="view view1 span2">
+          {% if page.navigation-selection == 'work' %}
+            {% include work_navigation.html %}
+          {% else if page.navigation-selection == 'play' %}
+            {% include play_navigation.html %}
+          {% endif %}
+        </div>
+        <div class="view view2 span6">
+          {{ content }}
+        </div>
+        <div class="view view3 span4">
+          {% include featured.html %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

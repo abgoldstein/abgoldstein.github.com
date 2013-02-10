@@ -1,98 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>adam b. goldstein</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adam B. Goldstein">
-    <meta name="author" content="Adam B. Goldstein">
-    
-    <script type="text/javascript" src="../assets/js/abgoldstein.js"></script>
+---
+layout: page
 
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../assets/css/abgoldstein.css" rel="stylesheet">
+header-title: adam b. goldstein
+header-description: The website of Adam B. Goldstein
 
-    <!-- Standard HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+navigation-selection: work
+subnavigation-selection: hreader
 
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-  </head>
-	<body data-spy="scroll" data-target=".subnav" data-offset="50">
-	<!-- Navbar
-	  ================================================== -->
-	  <div class="navbar navbar-fixed-top">
-	    <div class="navbar-inner">
-	      <div class="container">
-	        <a class="brand" href="../index.html">adam b. goldstein</a>
-	        <ul class="nav">
-						<li class="active">
-              <a href="index.html">work</a>
-            </li>
-						<li class="">
-              <a href="../play/index.html">play</a>
-            </li>
-						<li class="">
-              <a href="../contact.html">contact</a>
-            </li>
-        	</ul>
-	      </div>
-	    </div>
-	  </div>
+featured-title: hreader
+featured-image: /assets/img/hreader.jpg
+featured-link: http://www.hreader.org
+---
+<h3>the elevator pitch</h3>
+<p>
+  
+</p>
 
-	  <div class="container">
-			<div class="row">
-		    <div class="view view1 span2">
-		      <h3>web applications</h3>
-		      <ul class="nav nav-list">
-		        <li class="list-header">MITRE</li>
-						<li class="active"><a href="index.html">bonnie</a></li>
-						<li><a href="cypress.html">cypress</a></li>
-						<li class="list-header">WPI</li>
-						<li><a href="assistments.html">ASSISTments</a></li>
-						<li><a href="research.html">research</a></li>
-					</ul>
-		    </div>
-				<div class="view view2 span6">
-				  <h3>the elevator pitch</h3>
-		      <p>
-		        Bonnie is connected to the <a href="cypress.html">Cypress project</a> and is a collaboration with <a href="http://projectpophealth.org/">popHealth</a>. The project aims to allow for post-processing of HQMF
-		        documents, which are XML files that describe Clinical Quality Measures (<a href="http://www.cms.gov/QualityMeasures/">CQM</a>). There is a drag-and-drop UI for tweaking measure logic and the application can
-		        be used to export a handful of artifacts, including CQMs in a JSON format with generated executable JavaScript to calculate CQMs via MapReduce.
-		      </p>
-				  
-		      <h3>the technology stack</h3>
-		      <dl class="dl-horizontal">
-		        <dt>Server-side</dt>
-	            <dd>Ruby on Rails</dd>
-		        <dt>Database</dt>
-		          <dd>MongoDB</dd>
-		        <dt>Background Tasks</dt>
-		          <dd>Resque backed by Redis</dd>
-		        <dt>Client-side</dt>
-		          <dd>JavaScript and CoffeeScript with jQuery</dd>
-		        <dt>Stylesheets</dt>
-		          <dd>Sass on top of Twitter Bootstrap</dd>
-		      </dl>
-		      
-		      <h3>the cool parts i personally did</h3>
-		      <p>
-		        Primarily, I'm focused on making a unit test patient generator. Other members of the team who are parsing HQMF documents are able to give me a Ruby object representation of CQMs, and my goal is to create representations of patients that would exercise the logic of the measure. Not only can test patients serve to verify that our generated JavaScript is correct, but they can also assist EHR Vendors in their own testing without needing to worry about protected health information. I've also been working on packaging all of the Bonnie artifacts to import into Cypress serve as history for the evolution of measures and test patients.
-		      </p>
-		    </div>
-				<div class="view view3 span4">
-		      <h3>bonnie</h3>
-					<a href="http://www.projectpophealth.org">
-						<img src="../assets/img/bonnie.jpg" alt="bonnie">
-					</a>
-		    </div>
-			</div>
-		</div>
-	</body>
-</html>
+<h3>the technology stack</h3>
+<dl class="dl-horizontal">
+  <dt>Server-side</dt>
+    <dd>Ruby on Rails</dd>
+  <dt>Database</dt>
+    <dd>MongoDB, MySQL</dd>
+  <dt>Client-side</dt>
+    <dd>iOS 6 iPad app</dd>
+</dl>
+
+<h3>the cool parts i personally did</h3>
+<p>
+  
+</p>
