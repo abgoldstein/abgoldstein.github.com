@@ -1,20 +1,7 @@
+// Styles live here until I find a more appropriate home for them.
+
 body {
   margin-bottom: 20px;
-}
-
-.navbar .brand {
-  color: #fff;
-  font-weight: 100;
-  padding: 10px 20px 12px;
-}
-
-.navbar .nav > li > a {
-  padding: 15px 10px 11px;
-  font-weight: 200;
-}
-
-.bordered {
-  border: 1px black solid;
 }
 
 .view {
@@ -44,7 +31,7 @@ body {
 
 ul.badgelist { list-style-type: none; text-align: center; }
 ul.badgelist li { display: inline-block; }
-img.badge {
+img.social-badge {
   background: none;
   width: 60px;
   height: 60px;
