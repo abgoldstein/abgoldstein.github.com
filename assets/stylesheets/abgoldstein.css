@@ -5723,6 +5723,6 @@ img.social-badge {
   font-weight: 200; }
   .navbar .nav li a:hover {
     color: white; }
-.navbar .nav li.active a {
+.navbar .nav li.active a, .navbar .nav li.active a:hover {
   color: white;
   background-color: #222222; }
