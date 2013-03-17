@@ -5722,9 +5722,13 @@ img.social-badge {
   padding: 10px 20px 12px; }
 .navbar .nav li a {
   padding: 15px 10px 11px;
-  font-weight: 200; }
+  font-weight: 200;
+  text-shadow: none; }
   .navbar .nav li a:hover {
     color: white; }
 .navbar .nav li.active a, .navbar .nav li.active a:hover {
   color: white;
   background-color: #222222; }
+
+a.brand {
+  text-shadow: none; }
