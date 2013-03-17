@@ -5733,3 +5733,6 @@ img.social-badge {
 .navbar .navbar-inner .container a.brand {
   margin-top: 5px;
   text-shadow: none; }
+
+h3 {
+  font-size: 20px; }
