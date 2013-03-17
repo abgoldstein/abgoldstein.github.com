@@ -5730,5 +5730,5 @@ img.social-badge {
   color: white;
   background-color: #222222; }
 
-a.brand {
+.navbar .navbar-inner .container a.brand {
   text-shadow: none; }
