@@ -1,0 +1,10 @@
+<h3>{{ page.next-title }}</h3>
+{% if page.next-image %}
+<a href="{{ page.next-link }}">
+  <img src="{{ page.next-image }}" alt="{{ page.next-title }}">
+</a>
+{% else if page.next-video %}
+<iframe title="{{ page.next-title}}" class="youtube-player" type="text/html"
+  src="{{ page.next-video }}" frameborder="0" allowFullScreen>
+</iframe>
+{% endif %}
