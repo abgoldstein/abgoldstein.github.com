@@ -1,4 +1,4 @@
-exclude: ['config.yml', '.gitignore']
+exclude: ['config.yml', '.gitignore', 'Gemfile', 'Gemfile.lock']
 
 pygments: true
 lsi: true
