@@ -1,9 +1,0 @@
-exclude: ['config.yml', '.gitignore']
-
-pygments: true
-lsi: true
-future: false
-markdown: maruku
-permalink: pretty
-
-paginate: 10
