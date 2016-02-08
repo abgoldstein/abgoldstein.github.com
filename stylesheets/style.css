@@ -1,0 +1,322 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Rokkitt";
+  font-size: 3em;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Rokkitt";
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 28px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: underline;
+}
+a.btn {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Lato";
+  font-weight: 900;
+  border: 4px #c2e8eb solid;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 12px;
+  padding: 16px 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  color: #366063;
+  font-size: 1.4em;
+  line-height: 28px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.grid {
+  padding: 0px;
+  min-width: 600px;
+}
+
+.hello {
+  background-color: #88cbd0;
+  height: 450px;
+  white-space: nowrap;
+}
+.hello .content {
+  padding-top: 70px;
+  padding-left: 50%;
+  margin-left: -170px;
+}
+.hello .content p {
+  margin-top: 20px;
+}
+.hello .past-focus {
+  white-space: normal;
+}
+.hello .btn-talk {
+  margin: 20px 0px;
+}
+.hello .account-links a {
+  font-size: 2em;
+  color: #c2e8eb;
+  margin-right: 20px;
+}
+
+.caption {
+  margin-top: 20px;
+  text-align: center;
+}
+.grad .caption {
+  white-space: nowrap;
+}
+.caption p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.caption a, .caption p {
+  text-transform: uppercase;
+  color: #525254;
+  font-size: .9em;
+}
+.caption a.title {
+  font-weight: 900;
+}
+
+.experience {
+  height: 450px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+}
+.experience .content {
+  padding-top: 70px;
+  width: 100%;
+}
+.experience img {
+  width: 360px;
+  height: 225px;
+}
+
+.wbt {
+  background-color: #88cbd0;
+}
+.walkadoo {
+  background-color: #77ba99;
+}
+.cypress {
+  background-color: #e4e5b6;
+}
+.cypress img {
+  width: 292px;
+  height: 225px;
+}
+
+.grad {
+  background-color: #f3f3eb;
+  text-align: center;
+  height: 625px;
+  margin-top: 0px;
+}
+.grad p.story {
+  color: #525254;
+  padding-top: 70px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.grad img {
+  margin-top: 30px;
+  width: 240px;
+  height: 240px;
+}
+
+.other-times {
+  background-color: #fff;
+  height: 550px;
+  padding-top: 60px;
+}
+.other-times .content {
+  padding-left: 50%;
+  margin-left: -140px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.other-times p {
+  color: #898b8c;
+  margin-left: -10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.other-times ul {
+  margin-left: 25px;
+  margin-bottom: 30px;
+  list-style: disc;
+}
+.other-times ul li {
+  margin-bottom: 30px;
+  color: #88cbd0;
+  font-size: 2.8em;
+  text-transform: uppercase;
+}
+.other-times a {
+  color: #525254;
+  vertical-align: top;
+}
+.other-times ul li .list-content {
+  display: inline-block;
+  vertical-align: top;
+  color: #525254;
+  font-size: .35em;
+  margin-top: 10px;
+}
+.other-times ul li .title {
+  font-weight: 900;
+}
+.other-times ul li .description {
+  margin-top: 5px;
+}
+.other-times strong {
+  color: #77ba99;
+}
+.other-times .with-some-padding-on-the-right {
+  padding-right: 40px;
+}
+.other-times .and-a-border-on-the-left {
+  border-left: 1px #dcdcd8 solid;
+}
+
+.get-in-touch {
+  background-color: #d7e1e2;
+  color: #595a63;
+  height: 375px;
+  text-align: center;
+}
+.get-in-touch a {
+  color: #525254;;
+}
+.get-in-touch p.right-now {
+  margin: 70px 100px 35px 100px;
+}
+.get-in-touch .cta {
+  background-color: none;
+  border-color: #29b1c3;
+  color: #fff;
+}
+.get-in-touch p.thanksandy {
+  padding-top: 50px;
+  font-size: .7em;
+}
+
+a.github:hover, a.github:active, a.github:focus {
+  color: #000;
+}
+a.linkedin:hover, a.linkedin:active, a.linkedin:focus {
+  color: #4875b4;
+}
+a.twitter:hover, a.twitter:active, a.twitter:focus {
+  color: #33ccff;
+}
+a.btn:hover, a.btn:active, a.btn:focus {
+  border-color: #366063;
+  color: #366063;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  a.btn {
+    font-size: .8em;
+    font-weight: 400;
+    border: 2px #c2e8eb solid;
+    line-height: 12px;
+    padding: 8px 30px;
+  }
+
+  .hello {
+    height: 350px;
+    margin-bottom: 0px;
+  }
+  .hello .content {
+    padding-top: 50px;
+    padding-left: 50%;
+    margin-left: -100px;
+  }
+  .hello .content p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  .hello .btn-talk {
+    margin: 10px 0;
+  }
+  .hello .account-links a {
+    font-size: 1.6em;
+  }
+
+  .experience {
+    height: 350px;
+    line-height: 24px;
+  }
+
+  .experience p {
+    line-height: 14px;
+  }
+  .experience img {
+    width: 250px;
+    height: 160px;
+  }
+
+  .cypress img {
+    width: 210px;
+  }
+
+  .grad {
+    height: 850px;
+  }
+  .grad img {
+    margin-top: 30px;
+    width: 175px;
+    height: 175px;
+  }
+
+  .other-times {
+    height: 600px;
+  }
+  .other-times p {
+    margin-left: 30px;
+  }
+  .other-times ul {
+    margin-left: 65px;
+  }
+
+  .get-in-touch {
+    height: 375px;
+    margin-bottom: 0px;
+    font-size: .8em;
+  }
+  .get-in-touch p.thanksandy {
+    padding-top: 50px;
+  }
+}
