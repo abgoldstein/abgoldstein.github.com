@@ -22,11 +22,11 @@ a {
   text-decoration: none;
 }
 a.btn {
-  color: #fff;
+  color: #366063;
   text-decoration: none;
   font-family: "Lato";
   font-weight: 900;
-  border: 4px #c2e8eb solid;
+  border: 4px #366063 solid;
   border-radius: 30px;
   cursor: pointer;
   display: inline-block;
@@ -213,11 +213,6 @@ strong {
 .get-in-touch p.right-now {
   margin: 70px 100px 35px 100px;
 }
-.get-in-touch .cta {
-  background-color: none;
-  border-color: #29b1c3;
-  color: #fff;
-}
 .get-in-touch p.thanksandy {
   padding-top: 50px;
   font-size: .7em;
@@ -231,10 +226,6 @@ a.linkedin:hover, a.linkedin:active, a.linkedin:focus {
 }
 a.twitter:hover, a.twitter:active, a.twitter:focus {
   color: #33ccff;
-}
-a.btn:hover, a.btn:active, a.btn:focus {
-  border-color: #366063;
-  color: #366063;
 }
 
 @media handheld, only screen and (max-width: 767px) {
