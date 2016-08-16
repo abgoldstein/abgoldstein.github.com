@@ -1,20 +1,22 @@
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  background-color: #f3f3eb;
 }
 
 h1 {
-  font-family: "Rokkitt";
+  font-family: "Lato";
   font-size: 3em;
   font-weight: 700;
   color: #fff;
 }
 
 h2 {
-  font-family: "Rokkitt";
+  font-family: "Lato";
   font-weight: 400;
   font-size: 2.5em;
   line-height: 28px;
+  margin-top: 5px;
   color: #fff;
 }
 
@@ -202,13 +204,14 @@ strong {
 }
 
 .get-in-touch {
-  background-color: #d7e1e2;
+  background-color: #f3f3eb
   color: #595a63;
   height: 375px;
   text-align: center;
 }
 .get-in-touch a {
-  color: #525254;;
+  color: #525254;
+  font-weight: 500;
 }
 .get-in-touch p.right-now {
   margin: 70px 100px 35px 100px;
@@ -240,7 +243,7 @@ a.twitter:hover, a.twitter:active, a.twitter:focus {
   a.btn {
     font-size: .8em;
     font-weight: 400;
-    border: 2px #c2e8eb solid;
+    border-width: 2px;
     line-height: 12px;
     padding: 8px 30px;
   }
