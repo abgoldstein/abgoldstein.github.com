@@ -115,10 +115,15 @@ strong {
   height: 225px;
 }
 
-.wbt {
+.spoiler-alert {
   background-color: #88cbd0;
 }
-.walkadoo {
+.spoiler-alert img {
+  width: 300px;
+  height: 260px;
+  margin-bottom: -32px;
+}
+.wbt {
   background-color: #77ba99;
 }
 .cypress {
@@ -281,6 +286,9 @@ a.twitter:hover, a.twitter:active, a.twitter:focus {
     height: 160px;
   }
 
+  .spoiler-alert img {
+    width: 210px;
+  }
   .cypress img {
     width: 210px;
   }
